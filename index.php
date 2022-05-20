@@ -1,9 +1,10 @@
 <?php
 $stringa = 'Pasta al sugo e carne al sugo';
+
 if(isset($_GET['variabile'])){
     $modificatore = $_GET['variabile'];
 } else {
-    $modificatore = 'Inserire un modificatore prego';
+    $stringa = 'Si prega di inserire un valore nella URL (URL/?variabile=testo)';
 };
 ?>
 
